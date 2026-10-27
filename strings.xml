@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- General -->
+    <string name="app_name">ReshQMesh</string>
+
+    <!-- Home -->
+    <string name="home_title">ResQMesh</string>
+    <string name="home_subtitle">Offline Emergency Communication</string>
+    <string name="home_network_status">● Offline Mesh Network</string>
+    <string name="home_connected_nodes">Connected Nodes: 0</string>
+    <string name="home_sos_alert">🚨  SOS ALERT</string>
+    <string name="home_messages">Messages</string>
+    <string name="home_location">Location</string>
+    <string name="home_contacts">Emergency Contacts</string>
+    <string name="home_profile">Profile</string>
+
+    <!-- Profile -->
+    <string name="profile_title">My Profile</string>
+    <string name="profile_name_label">Name</string>
+    <string name="profile_name_hint">Enter your name</string>
+    <string name="profile_user_id_label">User ID</string>
+    <string name="profile_user_id_hint">Enter user ID</string>
+    <string name="profile_phone_label">Phone Number</string>
+    <string name="profile_phone_hint">Enter phone number</string>
+    <string name="profile_user_type_label">User Type</string>
+    <string name="profile_save">SAVE PROFILE</string>
+    <string name="profile_fill_all_fields">Please fill all fields</string>
+    <string name="profile_saved_successfully">Profile saved successfully</string>
+    <string name="user_type_victim">Victim</string>
+    <string name="user_type_rescue_team">Rescue Team</string>
+
+    <!-- Emergency Contacts -->
+    <string name="contacts_title">Emergency Contacts</string>
+    <string name="contacts_description">Add trusted people who can be contacted during an emergency.</string>
+    <string name="contact_name_label">Contact Name</string>
+    <string name="contact_name_hint">Enter contact name</string>
+    <string name="contact_phone_label">Phone Number</string>
+    <string name="contact_phone_hint">Enter phone number</string>
+    <string name="add_contact">ADD CONTACT</string>
+    <string name="saved_contacts">Saved Contacts</string>
+
+    <!-- Location -->
+    <string name="location_title">My Location</string>
+    <string name="location_not_retrieved">Location not retrieved</string>
+    <string name="location_latitude_default">Latitude: --</string>
+    <string name="location_longitude_default">Longitude: --</string>
+    <string name="get_current_location">GET CURRENT LOCATION</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="location_getting">Getting location...</string>
+    <string name="location_retrying">No recent location found. Trying again...</string>
+    <string name="location_unable_to_get">Unable to get location</string>
+    <string name="location_unavailable">Location unavailable. Check emulator location settings.</string>
+    <string name="location_unable_to_retrieve">Unable to retrieve current location</string>
+    <string name="location_retrieved_successfully">Location retrieved successfully</string>
+    <string name="location_latitude">Latitude: %1$s</string>
+    <string name="location_longitude">Longitude: %1$s</string>
+
+    <!-- Chat -->
+    <string name="chat_title">Emergency Messages</string>
+    <string name="chat_network_status">● Offline Mesh</string>
+    <string name="chat_welcome">Welcome to ResQMesh</string>
+    <string name="chat_message_hint">Type a message...</string>
+    <string name="chat_send">SEND</string>
+    <string name="chat_sos_details">🚨 EMERGENCY SOS\n\nUser ID: %1$s\nName: %2$s\nUser Type: %3$s\n\nMessage:\n%4$s\n\nLocation:\n%5$s, %6$s\n\nTime:\n%7$s\n\nNode ID: %8$s</string>
+
+    <!-- SOS -->
+    <string name="sos_title">Emergency SOS</string>
+    <string name="sos_description">Use SOS only during an emergency.</string>
+    <string name="sos_status_not_activated">SOS Status: Not Activated</string>
+    <string name="sos_status_activated">SOS Status: Activated</string>
+    <string name="emergency_message_label">Emergency Message</string>
+    <string name="emergency_message_hint">Enter your emergency message</string>
+    <string name="activate_sos">ACTIVATE SOS</string>
+    <string name="resolve_sos">RESOLVE SOS</string>
+    <string name="sos_ready_message">Emergency alert is ready to be transmitted.</string>
+    <string name="sos_activated_toast">SOS activated</string>
+    <string name="emergency_message_required">Please enter an emergency message.</string>
+    <string name="sos_creating_packet">Creating emergency packet...</string>
+    <string name="sos_location_failed">Unable to retrieve location.</string>
+    <string name="sos_location_unavailable">Location unavailable.</string>
+    <string name="sos_packet_created">Emergency packet created successfully.</string>
+    <string name="sos_location_permission_required">Location permission is required for SOS.</string>
+    <string name="sos_resolved">SOS has been resolved.</string>
+    <string name="phone_node_id">PHONE</string>
+    <string name="sos_packet_details">SOS: TRUE\n\nUser ID: %1$s\nName: %2$s\nUser Type: %3$s\nMessage: %4$s\nLatitude: %5$s\nLongitude: %6$s\nTime: %7$s\nNode ID: %8$s</string>
+
+    <string name="bluetooth_connect">Bluetooth Connection</string>
+
+    <string name="bluetooth_title">Bluetooth Connectivity</string>
+
+    <string name="bluetooth_status_disconnected">Bluetooth Status: Disconnected</string>
+
+    <string name="bluetooth_status_ready">Bluetooth is ready.</string>
+
+    <string name="bluetooth_status_disabled">Bluetooth is disabled.</string>
+
+    <string name="bluetooth_status_enable_request">Please enable Bluetooth.</string>
+
+    <string name="bluetooth_status_connection_failed">Bluetooth connection failed.</string>
+
+    <string name="bluetooth_open_settings">OPEN BLUETOOTH SETTINGS</string>
+
+    <string name="bluetooth_refresh_devices">REFRESH PAIRED DEVICES</string>
+
+    <string name="bluetooth_paired_devices">Paired Bluetooth Devices</string>
+
+    <string name="bluetooth_selected_none">Selected Device: None</string>
+
+    <string name="bluetooth_selected">Selected Device: %1$s</string>
+
+    <string name="bluetooth_message_hint">Enter test message</string>
+
+    <string name="bluetooth_send">SEND TEST MESSAGE</string>
+
+    <string name="bluetooth_received_data">Received Data</string>
+
+    <string name="bluetooth_no_data">No data received yet.</string>
+
+    <string name="bluetooth_disconnect">DISCONNECT</string>
+
+    <string name="bluetooth_no_paired_devices">No paired devices found. Pair your ESP32 from Bluetooth Settings first.</string>
+
+    <string name="bluetooth_device_button">%1$s\n%2$s\nTAP TO CONNECT</string>
+
+    <string name="bluetooth_connecting">Connecting to %1$s...</string>
+
+    <string name="bluetooth_connected">Connected to %1$s</string>
+
+    <string name="bluetooth_connection_successful">Bluetooth connection successful.</string>
+
+    <string name="bluetooth_disconnected">Bluetooth device disconnected.</string>
+
+    <string name="bluetooth_enter_message">Please enter a message.</string>
+
+    <string name="bluetooth_not_connected">No Bluetooth device is connected.</string>
+
+    <string name="bluetooth_message_sent">Message sent.</string>
+
+    <string name="bluetooth_not_supported">Bluetooth is not supported on this device.</string>
+
+    <string name="bluetooth_permission_required">Bluetooth permission is required.</string>
+
+    <string name="bluetooth_permission_denied">Bluetooth permission denied.</string>
+</resources>

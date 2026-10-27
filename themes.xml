@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ReshQMesh" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark-mode colors are lighter or softer to remain readable. -->
+        <item name="colorPrimary">#91D5C6</item>
+        <item name="colorOnPrimary">#153C36</item>
+        <item name="colorPrimaryContainer">#254A46</item>
+        <item name="colorOnPrimaryContainer">#DDF6EF</item>
+
+        <item name="colorSecondary">#9FD8CE</item>
+        <item name="colorOnSecondary">#103E38</item>
+        <item name="colorSecondaryContainer">#284D47</item>
+        <item name="colorOnSecondaryContainer">#D8F3EC</item>
+
+        <item name="colorTertiary">#F1C47D</item>
+        <item name="colorOnTertiary">#4D3213</item>
+        <item name="colorError">#F3A3A7</item>
+        <item name="colorOnError">#5A1118</item>
+
+        <item name="android:colorBackground">#101C24</item>
+        <item name="colorSurface">#14232B</item>
+        <item name="colorOnSurface">#E8EFF2</item>
+        <item name="colorOnSurfaceVariant">#B7C5CC</item>
+        <item name="colorOutline">#6D8089</item>
+        <item name="colorOutlineVariant">#3B4B54</item>
+
+        <item name="android:windowBackground">#101C24</item>
+        <item name="android:statusBarColor">#101C24</item>
+        <item name="android:navigationBarColor">#101C24</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">#9FD8CE</item>
+
+        <item name="materialButtonStyle">@style/Widget.ReshQMesh.Button</item>
+    </style>
+</resources>

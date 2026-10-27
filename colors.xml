@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand colors -->
+    <color name="reshqmesh_primary">#91D5C6</color>
+    <color name="reshqmesh_primary_container">#254A46</color>
+    <color name="reshqmesh_on_primary_container">#DDF6EF</color>
+
+    <color name="reshqmesh_teal">#9FD8CE</color>
+    <color name="reshqmesh_teal_container">#284D47</color>
+    <color name="reshqmesh_on_teal_container">#D8F3EC</color>
+
+    <!-- Emergency action -->
+    <color name="reshqmesh_emergency">#B8323A</color>
+
+    <!-- Dark backgrounds and surfaces -->
+    <color name="reshqmesh_background">#101C24</color>
+    <color name="reshqmesh_surface">#14232B</color>
+
+    <!-- Readable text -->
+    <color name="reshqmesh_on_surface">#E8EFF2</color>
+    <color name="reshqmesh_on_surface_variant">#B7C5CC</color>
+
+    <!-- Borders -->
+    <color name="reshqmesh_outline">#6D8089</color>
+    <color name="reshqmesh_outline_variant">#3B4B54</color>
+
+    <!-- Status colors -->
+    <color name="reshqmesh_success">#76C8A4</color>
+    <color name="reshqmesh_warning">#F1C47D</color>
+</resources>
